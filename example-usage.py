@@ -56,7 +56,6 @@ def newtons_example():
 def secant_example():
     """Secant method example usage."""
     # globals for the algorithm
-    APPROX = 0.1
     TOL = 10**-5
     N = 100
 
