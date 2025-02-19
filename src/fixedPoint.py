@@ -6,7 +6,6 @@ def fixed_point(
 ) -> float:
     for i in range(n):
         p = f(approx)
-        print(p)
         if abs(p - approx) < tol:
             return p
         approx = p
